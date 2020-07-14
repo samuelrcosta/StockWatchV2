@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import { Container } from './styles';
+import { Container } from '../../pagesStyles/stock/styles';
 
 function Stock() {
   const router = useRouter();

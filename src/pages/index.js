@@ -5,7 +5,7 @@ import axios from 'axios';
 
 import StockCard from '../components/StockCard';
 import { AnimatedSpinner } from '../styles/components';
-import { Container, SearchForm, ResultArea } from './styles';
+import { Container, SearchForm, ResultArea } from '../pagesStyles/styles';
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
