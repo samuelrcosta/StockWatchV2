@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { ToastContainer } from 'react-toastify';
 import { ThemeProvider } from 'styled-components';
 
-import GoogleFont from '../components/GoogleFont';
+import FontLoader from '../components/FontLoader';
 import Header from '../components/Header';
 
 import 'react-toastify/dist/ReactToastify.min.css';
@@ -21,7 +21,10 @@ export default class MyApp extends App {
           <title>Stock Watch</title>
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <GoogleFont href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700&display=swap" />
+        <FontLoader
+          preconnect="https://fonts.googleapis.com"
+          href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700&display=swap"
+        />
         <ThemeProvider theme={defaultTheme}>
           <Header />
           <Component {...pageProps} />
