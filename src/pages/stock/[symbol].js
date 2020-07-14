@@ -10,7 +10,7 @@ function Stock() {
   return (
     <Container>
       <h1>{symbol}</h1>
-      <h5>Coming soon!</h5>
+      <h5>Coming soon!!</h5>
     </Container>
   );
 }
