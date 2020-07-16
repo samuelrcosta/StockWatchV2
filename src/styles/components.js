@@ -18,3 +18,10 @@ export const AppContainer = styled.div`
 export const AnimatedSpinner = styled(FaSpinner)`
   animation: ${rotate} 2s linear infinite;
 `;
+
+export const StocksGrid = styled.div`
+  margin: 20px 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+`;

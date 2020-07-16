@@ -32,6 +32,14 @@ export const Container = styled.div`
       &:hover {
         color: #e6ce35;
       }
+
+      &.active {
+        color: #e6ce35;
+
+        &:hover {
+          color: #6b6b6b;
+        }
+      }
     }
   }
 

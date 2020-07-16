@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { AppContainer } from '../styles/components';
+import { AppContainer, StocksGrid } from '../styles/components';
 
 export const Container = styled(AppContainer)`
   margin-top: 25px;
@@ -62,9 +62,4 @@ export const SearchForm = styled.form`
   }
 `;
 
-export const ResultArea = styled.div`
-  margin: 20px 15px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-`;
+export const ResultArea = styled(StocksGrid)``;
